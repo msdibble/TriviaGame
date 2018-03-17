@@ -1,0 +1,156 @@
+body {
+    background-image: url(Galaxy-Background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    align-content: center;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+.introduction {
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    padding: 100px;
+    margin: 10px;
+}
+
+#startBtn {
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 30px;
+
+}
+
+#startBtn:hover {
+    color: gray;
+    background-color: blue;
+}
+
+.triviaQuestions {
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding: 100px;
+    margin: 10px;
+}
+#option1 {
+    background-color: black;
+    color: white;
+}
+
+#option2 {
+    background-color: black;
+    color: white;
+}
+
+#option3 {
+    background-color: black;
+    color: white;
+}
+
+#option4 {
+    background-color: black;
+    color: white;
+}
+
+#option1:hover {
+    color: gray;
+    background-color: lightblue;
+    cursor: pointer;
+    width: auto;
+}
+
+#option2:hover {
+    color: gray;
+    background-color: lightblue;
+    cursor: pointer;
+    width: auto;
+}
+
+#option3:hover {
+    color: gray;
+    background-color: lightblue;
+    cursor: pointer;
+    width: auto;
+}
+
+#option4:hover {
+    color: gray;
+    background-color: lightblue;
+    cursor: pointer;
+    width: auto;
+}
+
+#nextQuestion {
+    background-color: #08062b;
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#nextQuestion:hover {
+    background-color: lightblue;
+    color: gray;
+}
+
+h3 {
+    color: black;
+    font-weight: bolder;
+}
+#timer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.gameResults {
+    background-color:darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding: 80px;
+    margin: 10px;
+}
+
+#restartBtn {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 30px;
+}
+
+#restartBtn:hover {
+    color: gray;
+    background-color: blue;
+}
