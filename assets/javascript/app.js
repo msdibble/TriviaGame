@@ -63,7 +63,7 @@ var timer = {
     time: 20,
 
     resetTimer: function () {
-        clearInterval(countDownTimer);
+        clearInterval(counter);
         timer.time = 20;
     },
 
@@ -106,7 +106,8 @@ function countDownTimer () {
 $('#startBtn').on('click', function () { // Button to hide the introduction and make the first question and its corresponding options appear
     $('.triviaQuestions').show();
     $('.introduction').hide();
-    loadQuestion();
+    loadQuestion(p = 0);
+    clearInterval(countDownTimer);
     timer.startTimer();
 });
 
